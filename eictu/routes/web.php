@@ -22,7 +22,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/schools','SchoolController@index');
 Route::get('schools/create','SchoolController@create');
 Route::post('schools','SchoolController@store');
-Route::get('/getid','PagesController@getId');
+Route::get('/getid','getIdController@getId');
 /* end school section */
 
 
